@@ -1,0 +1,81 @@
+/* top banner design */
+.top-banner {
+    display: flex;
+    background-color: #040794;
+    height: 500px;
+    width: 95%;
+    margin: auto;
+}
+
+.top-banner img {
+    width: 500px;
+}
+
+.top-banner-image {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.top-banner-text {
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.top-banner-text button {
+    color: white;
+    background-color: rgb(236, 0, 79);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 50%;
+
+}
+button:hover{
+    background-color: rgb(247, 8, 147);
+}
+
+/* players section design */
+.players{
+    background-color: rgb(232, 238, 243);
+    border-radius: 5px;
+    width: 65%;
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.players img{
+    height: 250px;
+    width: 300px;
+}
+.players div{
+    background-color: #FFFF;
+    padding: 5px;
+    
+}
+/* footer design */
+footer h1{
+    text-align: center;
+}
+.footer-logo{
+    margin-left: 13%;
+}
+.social-icon{
+    margin-left: 44%;
+}
+.social-icon img{
+width: 60px;
+}
+/* responsive */
+@media (max-width: 800px){
+    .players{
+        display: flex;
+        flex-direction: column;
+        margin:0, auto;
+    }
+ 
+}
